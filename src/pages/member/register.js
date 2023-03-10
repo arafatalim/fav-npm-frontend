@@ -1,8 +1,10 @@
+import RegisterForm from "@/components/members/RegisterForm";
+
 function Register(){
       return (
             <div>
                   <h1>Registration Here</h1>
-                  <p>Register Here Buddy</p>
+                  <RegisterForm/>  
             </div>
       )
 }
